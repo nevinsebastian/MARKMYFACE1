@@ -11,20 +11,10 @@ firebase_admin.initialize_app(cred,{
 ref = db.reference('students')
 
 data = {
-    "321654":
-        {
-            "name": "Nevin Sebastian",
-            "major":"cse",
-            "starting_year":2020,
-            "total_attendance": 6,
-            "standing": "G",
-            "year":3,
-            "last_attendance_time": "2023-6-11 00:54:34"
-        },
     "852741":
         {
-            "name": "Emly Blunt",
-            "major":"eee",
+            "name": "sreelrxmi",
+            "major":"cse",
             "starting_year":2021,
             "total_attendance": 1,
             "standing": "B",
@@ -36,7 +26,17 @@ data = {
             "name": "Elon musk",
             "major":"civil",
             "starting_year":2017,
-            "total_attendance": 36,
+            "total_attendance": 50,
+            "standing": "G",
+            "year":4,
+            "last_attendance_time": "2023-6-11 00:54:34"
+        },
+    "321654":
+        {
+            "name": "nevin sebastian",
+            "major":"cse",
+            "starting_year":2020,
+            "total_attendance": 50,
             "standing": "G",
             "year":4,
             "last_attendance_time": "2023-6-11 00:54:34"
