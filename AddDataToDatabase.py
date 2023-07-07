@@ -10,6 +10,7 @@ firebase_admin.initialize_app(cred,{
 
 ref = db.reference('students')
 
+
 data = {
     "852741":
         {
@@ -23,7 +24,7 @@ data = {
         },
     "963852":
         {
-            "name": "Elon musk",
+            "name": "bobaz",
             "major":"civil",
             "starting_year":2017,
             "total_attendance": 50,
@@ -36,13 +37,12 @@ data = {
             "name": "nevin sebastian",
             "major":"cse",
             "starting_year":2020,
-            "total_attendance": 50,
+            "total_attendance": 1,
             "standing": "G",
             "year":4,
             "last_attendance_time": "2023-6-11 00:54:34"
-        }
+        },
 
 }
-
 for key,value in data.items():
     ref.child(key).set(value)
